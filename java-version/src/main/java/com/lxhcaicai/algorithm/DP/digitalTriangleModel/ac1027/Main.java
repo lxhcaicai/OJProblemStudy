@@ -2,6 +2,7 @@ package com.lxhcaicai.algorithm.DP.digitalTriangleModel.ac1027;
 
 import java.util.Scanner;
 
+// AcWing 1027. 方格取数
 public class Main {
     static final int N = 11;
     static int f[][][] = new int[2 * N][N][N];

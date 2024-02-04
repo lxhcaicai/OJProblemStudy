@@ -1,4 +1,4 @@
-package com.lxhcaicai.algorithm.graphTheory.lca.ac1169;
+package com.lxhcaicai.algorithm.graphTheory.lca.ac1172;
 
 import java.util.Scanner;
 

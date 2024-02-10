@@ -1,4 +1,4 @@
-package com.lxhcaicai.algorithm.dataStruct.ac239;
+package com.lxhcaicai.algorithm.dataStruct.disjointSet.ac239;
 
 import java.util.HashMap;
 import java.util.Scanner;

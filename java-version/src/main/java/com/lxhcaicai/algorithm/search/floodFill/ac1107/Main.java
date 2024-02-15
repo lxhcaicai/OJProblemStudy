@@ -1,4 +1,4 @@
-package com.lxhcaicai.algorithm.search.minimumStepsModel.ac1107;
+package com.lxhcaicai.algorithm.search.floodFill.ac1107;
 
 import java.util.*;
 

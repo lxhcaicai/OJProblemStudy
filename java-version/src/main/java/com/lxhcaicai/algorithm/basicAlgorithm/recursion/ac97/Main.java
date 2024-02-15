@@ -22,11 +22,10 @@ public class Main {
         if (c == 0) {
             return 1;
         }
-        if ((c & 1) ==1 ) {
-            return ((1 + ksm(p, (c + 1) >> 1)) * sum(p, (c - 1) >> 1)) % MOD;//奇数的情况下
-        }
-        else {
-            return ((1+ksm(p,c>>1))*sum(p,(c>>1)-1)+ksm(p,c))%MOD;//偶数的情况下
+        if(c % 2 == 0) {
+            return (p % MOD * sum(p, c -1) + 1) % MOD;
+        } else {
+            return (1 + ksm(p, c/2 + 1)) * sum(p, c/2) % MOD;
         }
     }
 

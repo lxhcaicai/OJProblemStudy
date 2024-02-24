@@ -1,4 +1,4 @@
-package com.lxhcaicai.algorithm.basics.searchAndGraphTheory.ac843;
+package com.lxhcaicai.algorithm.basics.searchAndGraphTheory.dfs.ac843;
 
 import java.util.Scanner;
 

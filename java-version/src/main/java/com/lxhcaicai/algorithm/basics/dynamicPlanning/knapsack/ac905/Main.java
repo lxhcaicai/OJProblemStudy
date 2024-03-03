@@ -1,9 +1,10 @@
-package com.lxhcaicai.algorithm.basics.dynamicPlanning.ac3;
+package com.lxhcaicai.algorithm.basics.dynamicPlanning.knapsack.ac905;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
+
     static final int N = 1010;
     static int[] f= new int[N];
 
@@ -14,7 +15,7 @@ public class Main {
         for(int i = 1; i <= n; i ++) {
             int v = scanner.nextInt();
             int w = scanner.nextInt();
-            for(int j=v;j <= m; j++) {
+            for(int j = m; j >=v; j --) {
                 f[j] = Math.max(f[j], f[j - v] + w);
             }
         }

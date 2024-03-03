@@ -1,4 +1,4 @@
-package com.lxhcaicai.algorithm.basics.dynamicPlanning.ac4;
+package com.lxhcaicai.algorithm.basics.dynamicPlanning.knapsack.ac4;
 
 import java.util.Arrays;
 import java.util.Scanner;
